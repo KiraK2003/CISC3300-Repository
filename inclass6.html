@@ -1,17 +1,77 @@
-<html lang="en">
+<html>
 
     <head>
 
-        <title>css grid</title>
+        <title>flexbox</title>
+
+        <style>
+
+            .flex-container {
+                /* creates 2 axis -> a main axis and a cross axis*/
+                display: flex;
+
+                /* flex direction row is horizontal left to right*/
+                /*flex-direction: row;*/
+
+                /* flex direction column is vertical left to right*/
+                flex-direction: column;
+
+                /*flex wrap */
+                /*flex-wrap: wrap;*/
+                /*width: 700px;*/
+
+                /*justify content - aligns items on the main axis*/
+                /*justify-content: center;*/
+
+                /*align items - aligns items on the cross axis  */
+                align-items: center;
+
+                /*align content - only works with flex wrap - aligns wrapped items on the cross axis*/
+                /*align-content: flex-end;*/
+
+                /*width: 600px;*/
+
+
+            }
+
+            .flex-item {
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+                color: white;
+                margin: 20px;
+
+                /* orders flex children*/
+            }
+
+            /*#first-flex-item {*/
+            /*    display: flex;*/
+            /*    align-items: center;*/
+            /*    flex-direction: column;*/
+            /*}*/
+
+
+        </style>
 
     </head>
 
     <body>
 
+        <div class="flex-container">
+            <div id="first-flex-item" class="flex-item">
+<!--                <div>1</div>-->
+<!--                <div>2</div>-->
+<!--                <div>3</div>-->
+                div1
+            </div>
+            <div class="flex-item">div2</div>
+            <div class="flex-item">div3</div>
+<!--            <div class="flex-item">div3</div>-->
+        </div>
+
         <div class="grid-container">
             <div class="grid-item-1 grid-item">div1</div>
             <div class="grid-item-2 grid-item">div2</div>
-            <div class="grid-item-3 grid-item">div3</div>
         </div>
 
         <style>
@@ -33,31 +93,22 @@
             .grid-item-1 {
                 /*we define where we want our first item to span in the grid*/
                 grid-row-start: 1;
-                grid-row-end: 2;
+                grid-row-end: 5;
                 grid-column-start: 1;
                 grid-column-end: 2;
-                background-color: blue;
+                background-color: blueviolet;
             }
 
             .grid-item-2 {
-                grid-row-start: 2;
+                grid-row-start: 1;
                 grid-row-end: 3;
-                grid-column-start: 2;
-                grid-column-end: 3;
-                background-color: blue;
+                grid-column-start: 3;
+                grid-column-end: 5;
+                background-color: red;
 
                 /*display: flex;*/
                 /*justify-content: center;*/
             }
-
-            .grid-item-3 {
-                grid-row-start: 3;
-                grid-row-end: 4;
-                grid-column-start: 3;
-                grid-column-end: 4;
-                background-color: blue;
-            }
-
 
         </style>
 
