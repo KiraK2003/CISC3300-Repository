@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 10</title>
+    </head>
+    <body style="background-color: yellow;">
+
+
+        <!--  html event handler   -->
+        <div id="initial-text" onclick="htmlDOMReact()">
+            initial text
+        </div>
+
+        <button type="button" onclick="myFunction()">Color</button>
+
+        <script>
+
+    function Color()
+    {   
+    var colors = ["green", "black","white"],
+    selectedColor = colors[Math.floor(Math.random()*colors.length)]
+    $("body").css("background-color", selectedColor);
+    }
+            document.getElementById('initial-text').onclick = domEventHandlerReact
+
+            //3. event listener
+            document.getElementById('initial-text').addEventListener('click', function (e) {
+                //when a click event happens, call this function, will automatically pass the event
+
+                //this keyword -> we are in the context of the node object
+                console.log(this)
+
+                //event object
+                console.log(e)
+
+                const secondDiv = document.getElementById('initial-text')
+
+                const firstDivClass = document.getElementById('style');
+                firstDivClass.setAttribute('style', 'color: yellow')
+            });
+
+            // window.addEventListener('load', function (e) {
+            //   console.log("loaded")
+            // });
+
+            document.getElementById('initial-text').addEventListener('click', function (e) {
+                // console.log('second function!')
+            });
+
+            document.getElementById('initial-text').addEventListener('click', function (e) {
+                console.log('initial-text')
+                // console.log(e.target.innerText)
+                // console.log(e.target.innerHTML = `<div>added</div>`)
+            });
+            // document.getElementById('child-div').addEventListener('click', function (e) {
+            //   console.log('child clicked')
+            // });
+
+            const nameElement = document.getElementById('input-name');
+            //example form prevent default
+            document.getElementById('form').addEventListener('submit', function (e) {
+                e.preventDefault()
+                console.log(nameElement.value)
+            });
+
+        </script>
+
+    </body>
+</html>
