@@ -1,0 +1,9 @@
+Kira Knyazhevsky
+2/20/25
+
+1. _jQuery______ is a lightweight, "write less, do more", JavaScript library 
+2. _JavaScript Libraries______ makes our lives easier when doing common HTML/CSS/JS tasks.
+3. _AJAX______ allows web pages to be updated asynchronously by exchanging data with a web server behind the scenes. 
+4. _HTTP______ how the internet handles communication between clients and servers, is done by requests and responses. 
+5. _JSON______ is a text-based data format following JavaScript object syntax.
+6. _API______ is a way for two or more computer programs or components to communicate with each other. 
