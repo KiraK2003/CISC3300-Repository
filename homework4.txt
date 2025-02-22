@@ -1,0 +1,5 @@
+1. Interpreted languages are more flexible and offer dynamic typing. However, the execution speed is slower compared to compiled languages.
+2. Dynamic typing is when type checking is performed at runtime. Static typing does not type check during runtime. Weak typing recognizes different data types but doesn't use them strictly. Strong typing strictly enforces type discipline.
+3. There are four ways to declare a variable in JavaScript; automatically, var, let, and const. Var is used to support old browsers. Let variables have Block Scope, must be declared, and cannot be redeclared. Const variables stay constant.
+4. Anonymous functions do not have a name. Higher order functions take another function as an argument and return it as its result. Callback functions are passed as an argument to another function. First class functions are assigned to another variable or passed as an argument or returned by another function.
+5. Objects are variables in JavaScript that contain many values. A property is associated between a name/key and a value. A property's value can be a function; this will be known as a method. Objects are a non-primitive data type.
