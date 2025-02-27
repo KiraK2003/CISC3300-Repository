@@ -1,0 +1,8 @@
+Kira Knyazhevsky
+2/27/25
+
+1. Variable names start with a _dollar sign followed by a letter/underscore_____ in php.
+2. _Associatives_____ behave a bit like objects in JS or dictionaries in python.
+3. A template literal in PHP would be _welcome{$name}______.
+4. php is loosely typed - we don’t set types for variables, they are _predefined_______.
+5. The _include/require_____ statement takes all the text/code/markup that exists in the specified file and copies it into the file that uses the include statement.
