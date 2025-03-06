@@ -1,0 +1,25 @@
+Kira Knyazhevsky
+2/26/25
+
+1. What is the DOM? What is meant by the DOM tree?
+The DOM is the Document Object Model. With it, JavaScript can create dynamic HTML.
+The DOM tree is composed of the Document, Root Element, Element, Attribute, and Text.
+
+2. What is an XSS attack? How do they work? How can you guard against them?
+Cross Site Scripting allows an attacker to execute a script in a user’s browser in the web application.
+To prevent XSS attacks, developers should secure their websites with XSS protection.
+
+3. What is an event in JavaScript? What kind of events can you respond to with code?
+An event can be something the browser or user does. Some examples include a web page that has finished loading or a button was clicked.
+
+4. How does a DOM eventListener work? What are the parameters it is expecting?
+The eventListener method attaches an event handler to the specified element.
+It expects the type of the event, the function call, and the optional boolean value parameters.
+
+5. What is jQuery? Why use it? How do we load jQuery onto a page?
+jQuery is a JavaScript Library. It makes JavaScript programming easier.
+The load method loads data from a server and puts it into the selected element.
+
+6. What is AJAX? JSON? The HTTP method types and what they do?
+AJAX is Asynchronous JavaScript And XML, it can edit a webpage without refreshing. JSON is JavaScript Object Notation, a text format for storing and transporting data.
+HTTP is used to request data from a web server.

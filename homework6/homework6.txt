@@ -1,0 +1,19 @@
+Kira Knyazhevsky
+3/6/25
+
+1. Define hoisting and closures in JS.
+Hoisting is the process that moves the declaration of variables, functions, classes, and imports to the top of the code before execution.
+Closure is a function defined in another function that remembers its environment.
+
+2. What is PHP? What do server side languages do in web development?
+PHP stands for Hypertext Preprocessor. It is mostly used for making web servers; it runs on the browser and in the command line.
+
+3. What are some examples of how the PHP and JavaScript programming languages are alike and how they differ?
+PHP and JavaScript.
+
+4. Why pick PHP over another server side scripting language like Python or Node?
+PHP is most effective at.
+
+5. Compare and contrast echo and var_dump.
+Echo is.
+Var_dump is.
