@@ -9,11 +9,12 @@ Closure is a function defined in another function that remembers its environment
 PHP stands for Hypertext Preprocessor. It is mostly used for making web servers; it runs on the browser and in the command line.
 
 3. What are some examples of how the PHP and JavaScript programming languages are alike and how they differ?
-PHP and JavaScript.
+PHP and JavaScript are both programming languages.
+However, JavaScript is a client-side scripting language that uses objects to store data, whereas PHP is a server-side scripting language that uses variables.
 
 4. Why pick PHP over another server side scripting language like Python or Node?
-PHP is most effective at.
+PHP is flexible and has a large library of functions. It is free to download and anyone can learn to use it.
 
 5. Compare and contrast echo and var_dump.
-Echo is.
-Var_dump is.
+Echo is a print statement that has no return value.
+Var_dump gives information about one or more variables.
