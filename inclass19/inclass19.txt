@@ -1,0 +1,8 @@
+Kira Knyazhevsky
+3/27/25
+
+1. A built in class that comes packaged with PHP to make it very easy for you to interact with databases, represents and manages the connection to the database: _PDO_______.
+2. The _DSN______ is a string that contains information about our connection to the database.
+3. In homeworks going forward/final project it will be a deduction of points if you submit _.env file_____!!!
+4. _Prepared statement_____ is a parameterized and reusable SQL query which forces the developer to write the SQL command and the user-provided data separately.
+5. A _SQL injection_____ is when a hacker tries to run malicious sql code in a database.
