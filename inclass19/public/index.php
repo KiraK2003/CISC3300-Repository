@@ -2,14 +2,14 @@
 require_once "../app/models/model.php";
 require_once "../app/models/user.php";
 require_once "../app/controllers/controller.php";
-
+/*
 //set our env variables, remember con
 $env = parse_ini_file('../.env');
 define('DBNAME', $env['DBNAME']);
 define('DBHOST', $env['DBHOST']);
 define('DBUSER', $env['DBUSER']);
 define('DBPASS', $env['DBPASS']);
-define('DBPORT', $env['DBPORT']);
+//define('DBPORT', $env['DBPORT']);
 
 use app\controllers\UserController;
 

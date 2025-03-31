@@ -1,0 +1,19 @@
+Kira Knyazhevsky
+3/30/25
+
+1. Relationships are the established associations between two or more tables.
+They are based on common fields from more than one table,
+often involving primary and foreign keys.
+A join allows you to request data from more than one table.
+
+2. When we join to tables we can pick between a few types of joins to determine
+what data should be returned.
+
+3. PDOs are built in classes that comes packaged with PHP to make it very easy for you to
+interact with databases.
+
+4. A prepared statement is a feature used to execute the same (or similar) SQL statements repeatedly with high efficiency.
+Prepared statements reduce parsing time, bound parameters minimize bandwidth to the server,
+and are very useful against SQL injections.
+
+5. A .env file is a file containing environment variables.

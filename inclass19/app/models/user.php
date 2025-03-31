@@ -2,7 +2,7 @@
 
 namespace app\models;
 
-class User extends Model {
+class User extends models {
 
     public function getUsers($name) {
         if ($name) {
